@@ -125,7 +125,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/art.jpeg");
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/background.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
