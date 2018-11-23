@@ -1,16 +1,13 @@
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Domine', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
-  line-height: 1.75; }
+  line-height: 1.75;
+}
 
 .logo-a{
-<<<<<<< HEAD
     width: 15%;
-=======
-  width: 15%;
->>>>>>> 4146fb9622761e98ed695d0c998c0240e93c20b8
 }
 
 a {
@@ -37,13 +34,14 @@ section {
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
+    font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-style: italic;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 @media(max-device-width: 480px){
     .logo-a{
-        width: 15%;
+        width: 20%;
     }
 }
 
@@ -143,7 +141,7 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 15px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -161,7 +159,7 @@ header.masthead {
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
@@ -221,7 +219,7 @@ header.masthead {
       font-size: 16px;
       font-style: italic;
       margin: 0;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
   z-index: 2; }
@@ -253,7 +251,7 @@ header.masthead {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
