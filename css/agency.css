@@ -624,3 +624,14 @@ ul.social-buttons {
     border-bottom-style: solid;
     border-color: white;
 }
+
+.alert{
+    text-align: center;
+    padding: 10px;
+    background: #232323;
+    color: #fff;
+    margin-top: 10px;
+    border: solid 1px;
+    border-color: #fff;
+    display: none;
+}

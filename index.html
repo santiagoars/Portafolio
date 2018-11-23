@@ -251,8 +251,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-6 col-sm-2"></div>
-          <div class="col-xs-6 col-sm-4">
+          <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/portfolio/profile.png" alt="">
               <h4>Santiago Aragon</h4>
@@ -276,7 +275,7 @@
               </ul>
             </div>
         </div>
-        <div class="col-xs-6 col-sm-4">
+        <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/portfolio/Diego.png" alt="">
               <h4>Diego Arredondo</h4>
@@ -300,7 +299,30 @@
               </ul>
             </div>
         </div>
-        <div class="col-xs-6 col-sm-2"></div>
+        <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/portfolio/Kid.png" alt="">
+              <h4>Fernando Benavides</h4>
+              <p class="text-muted">Diseñador Web</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -323,25 +345,25 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
+            <form id="contactForm" name="sentMessage" validate>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Nombre" required data-validation-required-message="Please enter your name.">
+                    <input class="form-control" id="name" type="text" placeholder="Nombre" required>
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Email" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" id="email" type="email" placeholder="Email" required>
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Numero de telefono" required data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control" id="phone" type="tel" placeholder="Numero de telefono" required>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Tu mensaje" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" placeholder="Tu mensaje" required></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -349,6 +371,7 @@
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
                   <button id="sendMessageButton" class="btn btn-foot btn-xl" type="submit">Enviar</button>
+                  <div class="alert">Your message has been sent!</div>
                 </div>
               </div>
             </form>
@@ -603,8 +626,8 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script src="js/form.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
