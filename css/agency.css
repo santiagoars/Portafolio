@@ -602,7 +602,7 @@ ul.social-buttons {
   fieldset[disabled] .btn-xl.focus,
   fieldset[disabled] .btn-xl:focus,
   fieldset[disabled] .btn-xl:hover {
-    border-color: #232323;
+    border-color: #A8A8A8;
     background-color: #232323; }
   .btn-xl .badge {
     color: #232323;
