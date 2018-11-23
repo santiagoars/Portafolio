@@ -6,7 +6,11 @@ p {
   line-height: 1.75; }
 
 .logo-a{
+<<<<<<< HEAD
     width: 15%;
+=======
+  width: 15%;
+>>>>>>> 4146fb9622761e98ed695d0c998c0240e93c20b8
 }
 
 a {
