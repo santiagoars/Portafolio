@@ -5,6 +5,10 @@ body {
 p {
   line-height: 1.75; }
 
+.logo-a{
+    width: 15%;
+}
+
 a {
   color: #232323; }
   a.active, a:active, a:focus, a:hover {
@@ -33,6 +37,11 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+@media(max-device-width: 480px){
+    .logo-a{
+        width: 15%;
+    }
+}
 
 @media (min-width: 768px) {
   section {
@@ -602,7 +611,7 @@ ul.social-buttons {
   fieldset[disabled] .btn-xl.focus,
   fieldset[disabled] .btn-xl:focus,
   fieldset[disabled] .btn-xl:hover {
-    border-color: #A8A8A8;
+    border-color: #232323;
     background-color: #232323; }
   .btn-xl .badge {
     color: #232323;
