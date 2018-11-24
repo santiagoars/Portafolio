@@ -6318,6 +6318,10 @@ a.bg-dark:focus, a.bg-dark:hover {
   z-index: 1030;
 }
 
+.fixed-top .logo-nav{
+    display: none;
+}
+
 .fixed-bottom {
   position: fixed;
   right: 0;
