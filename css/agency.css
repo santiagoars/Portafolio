@@ -97,6 +97,7 @@ body {
     text-transform: uppercase; }
 #mainNav.navbar-shrink .logo-nav{
     padding: auto;
+    padding: auto;
 }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #A8A8A8; }
