@@ -95,18 +95,9 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
-<<<<<<< HEAD
-#mainNav.navbar-shrink .logo-nav{
-    padding: auto;
-    padding: auto;
-}
-=======
->>>>>>> 1942ac8bc4c70b5f106f62e967eb9902c59fc8fa
+
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #A8A8A8; }
-.logo-nav{
-  width: 9%;
-}
 
 
 
@@ -131,7 +122,9 @@ body {
       padding-bottom: 0;
       background-color: #222222; }
     #mainNav.navbar-shrink .logo-nav{
-        display: block;
+        width: 4.5%;
+        display: table-cell;
+        
     }
     
     .logo-nav{
